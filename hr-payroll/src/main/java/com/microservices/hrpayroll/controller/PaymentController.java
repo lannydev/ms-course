@@ -1,7 +1,7 @@
 package com.microservices.hrpayroll.controller;
 
 import com.microservices.hrpayroll.entities.Payment;
-import com.microservices.hrpayroll.entities.services.PaymentService;
+import com.microservices.hrpayroll.services.PaymentService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
